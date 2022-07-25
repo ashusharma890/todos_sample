@@ -1,0 +1,86 @@
+body{
+    background-image:radial-gradient(antiquewhite,white);
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 10rem;
+    margin-bottom: 4rem;
+    color: #ceb0e9;
+    padding-left: 1rem;
+}
+
+.heading:hover{
+    transform: scale(1.2);
+    color:mediumturquoise;
+    text-decoration: line-through;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: black;
+}
+
+.completed:hover{
+    color:mediumspringgreen;
+}
+
+#input{
+    height: 3rem;
+    width: 20rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    font-size: x-large;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#input:focus{
+    color: #ceb0e9;
+    background-color: grey;
+}
+
+::placeholder{
+ color: #ceb0e9;
+ font-size:x-large;
+ text-align:left;
+}
+
+.todos{
+    color: #ceb0e9;
+    /* background-color: whitesmoke; */
+    font-size: x-large;
+
+}
+
+.todos:hover{
+    transform: scale(1.1);
+    color: cornflowerblue;
+}
+
+.task{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    height: 20vh;
+}
+
+.bottom{
+    color: #ceb0e9;
+    font-size:medium;
+    margin-left: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.bottom:hover{
+    transform: scale(1.1);
+    color: black;
+}
